@@ -1,4 +1,3 @@
-AV-JanataHack-MobilityAnalytics
-Final solution for JanataHack Mobility- analytics https://datahack.analyticsvidhya.com/contest/janatahack-mobility-analytics/True/#About
+Final solution for JanataHack Mobility- analytics https://datahack.analyticsvidhya.com/contest/janatahack-mobility-analytics/
 
 Rank-Top100
