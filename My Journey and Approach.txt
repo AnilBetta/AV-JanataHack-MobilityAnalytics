@@ -1,0 +1,32 @@
+During my engineering days, I had no interest in programming . I was good with maths and interested with statistics and later I came to know that 
+there is a interesting domain in computer science which involves maths and statistics . This made me to start with data analytics, i took some online course on it during
+my final year engineering. I was introduced into kaggle from one of my friends ,from there my ML journey started learning from good kaggle kernels and from other MOOC source.
+I graduated in 2019 and now i am working as a ML engineer in Opteamix,Bangalore. Recently during covid19 situation i started participating in hackathons in Machine Hack and Analytics Vidhya.
+Thanks machine hack for organising these interesting weekend hackathons from which i am learning continiously.
+
+
+Approach to solve the problem:
+
+Which Worked:
+-First key thing was to convert the multi class classification into binary classification. Because predicting the winnning probability for other teams ,
+when Team-A is playing against Team-B doesn't make any sense. This approach helped massively where my validation score improved from 0.68 to 0.61. 
+
+-I created Team Rank feature based on the value counts of MatchWinner wrt Team.
+
+-Lots of group by aggregate features on both numerical and categorical features.
+
+-Created group by nunique features
+
+-Interaction features (combining 2 feature)
+
+-Frequency encoding on categorical features gave me decent boost.
+
+-Created Team Experience feature based on number of unique stadium team played.
+
+-Stratified Kfold validation ,was matching with LB score.
+
+-LGBM model.
+
+Which didnt work:
+-Target Encoding
+-Target based Feature Engineering -[Reason for this is specified in my notebook]
